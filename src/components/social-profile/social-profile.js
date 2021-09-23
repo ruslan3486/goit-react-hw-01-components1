@@ -36,6 +36,11 @@ const Profile = ({ name, tag, location, avatar, stats }) => (
 
 )
 
+Profile.defaultProps = {
+  avatar:
+    'https://cdn.pixabay.com/photo/2017/07/31/22/05/feathers-2561511_1280.jpg',
+};
+
 
 
 Profile.propTypes = {
